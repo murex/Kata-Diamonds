@@ -22,15 +22,26 @@ SOFTWARE.
 
 package com.murex;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class DiamondsTest {
 
+    @Ignore
     @Test
     public void acceptance_test() {
-        // TODO Replace with an acceptance test relevant for this kata
-        assertEquals(42, Diamonds.doSomething());
+        String diamond = Diamonds.draw('D');
+
+        String expected = ""
+                + "   A   \n"
+                + "  B B  \n"
+                + " C   C \n"
+                + "D     D\n"
+                + " C   C \n"
+                + "  B B  \n"
+                + "   A   ";
+        assertEquals(expected, diamond);
     }
 }

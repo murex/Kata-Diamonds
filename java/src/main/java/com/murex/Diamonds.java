@@ -24,8 +24,7 @@ package com.murex;
 
 class Diamonds {
 
-    // TODO Replace with a method more relevant for the kata
-    static int doSomething() {
-        return 42;
+    public static String draw(char letter) {
+        return "";
     }
 }
