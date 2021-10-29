@@ -1,7 +1,7 @@
 # Diamonds
 
-[![Kata Image](images/Team.jpg)](https://images.unsplash.com/photo-1556565681-306458ef93cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-_`Replace above picture with something more relevant for this kata`_
+![Diamonds](images/Diamonds.jpg)
+Image by [Edgar Soto](https://unsplash.com/@edgardo1987) on [UnSplash](https://unsplash.com/photos/gb0BZGae1Nk)
 
 ## Description
 
