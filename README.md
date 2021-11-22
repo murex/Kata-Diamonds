@@ -1,11 +1,23 @@
 # Diamonds
 
-![Diamonds](images/Diamonds.jpg)
+![Diamonds](images/Diamonds.jpg) <br>
 Image by [Edgar Soto](https://unsplash.com/@edgardo1987) on [UnSplash](https://unsplash.com/photos/gb0BZGae1Nk)
 
 ## Description
 
 _`Add kata description here`_
+
+## Getting Started
+
+### Running the kata using TCR
+
+- [Java](./java/GETTING_STARTED_TCR.md)
+- [C++](./cpp/GETTING_STARTED_TCR.md)
+
+### Running the kata using a standard approach
+
+- [Java](./java/GETTING_STARTED.md)
+- [C++](./cpp/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
@@ -48,9 +60,9 @@ _`Indicate main focus points covered during this kata`_
 
 ## License
 
-The `Kata-Diamonds` and the accompanying materials are made available
-under the terms of the MIT License ([here](LICENSE.md)) which accompanies this
-distribution, and is available at the Open Source site [here](https://opensource.org/licenses/MIT)
+`Kata-Diamonds` and the accompanying materials are made available
+under the terms of the [MIT License](./LICENSE.md) which accompanies this
+distribution, and is available at the [Open Source site](https://opensource.org/licenses/MIT)
 
 ## Acknowledgements
 
