@@ -9,19 +9,12 @@ _`Add kata description here`_
 
 ## Getting Started
 
-### Running the kata using TCR
-
-- [Java](./java/GETTING_STARTED_TCR.md)
-- [C++](./cpp/GETTING_STARTED_TCR.md)
-
-### Running the kata using a standard approach
-
-- [Java](./java/GETTING_STARTED.md)
-- [C++](./cpp/GETTING_STARTED.md)
+- [Java](java/GETTING_STARTED.md)
+- [C++](cpp/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
-You can fill it from [here](./QuickRetrospective.md)
+You can fill it from [here](QuickRetrospective.md)
 
 ## Useful Links
 
@@ -40,10 +33,10 @@ _`Add here any link deemed relevant for this kata`_
 
 _`Remove irrelevant formats and adjust duration if needed`_
 
-- 2-hour [Prepared Kata](./doc/PreparedKata.md)
-- 2-hour [Randori in Pairs](./doc/RandoriInPairs.md)
-- 2-hour [Randori Kata](./doc/RandoriKata.md)
-- 2-hour [Mob Kata](./doc/MobProgramming.md)
+- 2-hour [Prepared Kata](doc/PreparedKata.md)
+- 2-hour [Randori in Pairs](doc/RandoriInPairs.md)
+- 2-hour [Randori Kata](doc/RandoriKata.md)
+- 2-hour [Mob Kata](doc/MobProgramming.md)
 
 ### Topic
 
@@ -55,18 +48,18 @@ _`Indicate main focus points covered during this kata`_
 
 ### Source Files
 
-- [Java](./java)
-- [C++](./cpp)
+- [Java](java)
+- [C++](cpp)
 
 ## License
 
 `Kata-Diamonds` and the accompanying materials are made available
-under the terms of the [MIT License](./LICENSE.md) which accompanies this
+under the terms of the [MIT License](LICENSE.md) which accompanies this
 distribution, and is available at the [Open Source site](https://opensource.org/licenses/MIT)
 
 ## Acknowledgements
 
-See [ACKNOWLEDGEMENTS.md](./ACKNOWLEDGEMENTS.md) for more information.
+See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for more information.
 
 ## Contributors
 
