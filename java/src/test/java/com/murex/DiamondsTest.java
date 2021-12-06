@@ -32,8 +32,7 @@ public class DiamondsTest {
     @Ignore
     @Test
     public void acceptance_test() {
-        String diamond = Diamonds.draw('Z');
-
+        char letter = 'Z';
         String expected = ""
             + "                         A                         \n"
             + "                        B B                        \n"
@@ -86,6 +85,6 @@ public class DiamondsTest {
             + "                       C   C                       \n"
             + "                        B B                        \n"
             + "                         A                         \n";
-        assertEquals(expected, diamond);
+        assertEquals(expected, Diamonds.draw(letter));
     }
 }
