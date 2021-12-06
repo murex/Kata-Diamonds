@@ -5,7 +5,7 @@ Image by [Edgar Soto](https://unsplash.com/@edgardo1987) on [UnSplash](https://u
 
 ## Description
 
-_`Add kata description here`_
+Available [here](https://codingdojo.org/kata/Diamond/)
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ You can fill it from [here](QuickRetrospective.md)
 
 ### For this Kata
 
-_`Add here any link deemed relevant for this kata`_
+- N/A
 
 ### General
 
@@ -31,20 +31,18 @@ _`Add here any link deemed relevant for this kata`_
 
 ### Style & Duration
 
-_`Remove irrelevant formats and adjust duration if needed`_
-
-- 2-hour [Prepared Kata](doc/PreparedKata.md)
-- 2-hour [Randori in Pairs](doc/RandoriInPairs.md)
 - 2-hour [Randori Kata](doc/RandoriKata.md)
-- 2-hour [Mob Kata](doc/MobProgramming.md)
 
 ### Topic
 
-_`Indicate main topic of this kata here`_
+- Top-down TDD
 
 ### Focus Points
 
-_`Indicate main focus points covered during this kata`_
+- Baby Steps
+- YAGNI
+- Code Smells
+- Refactor on green bar
 
 ### Source Files
 
