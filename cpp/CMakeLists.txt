@@ -22,7 +22,7 @@ cmake_minimum_required(VERSION 3.19.3)
 
 project(Kata-Diamonds CXX)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 enable_testing()
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -34,9 +34,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin CACHE PATH "Where to 
 # We use CPM for 3rd-party dependencies management
 include(cmake/CPM.cmake)
 include(cmake/FindGoogleTest.cmake)
-# ApprovalTests (for Golden Master tests) -->
-# Uncomment if the kata is using it. Remove otherwise
-#include(cmake/FindApprovalTests.cmake)
 
 add_library(Kata-Diamonds-shared SHARED)
 
@@ -67,8 +64,6 @@ target_sources(Kata-Diamonds-test
 target_link_libraries(Kata-Diamonds-test
     PRIVATE
         Kata-Diamonds-shared
-        # Uncomment if using ApprovalTests, remove otherwise
-        # ApprovalTests
         gtest_main)
 
 add_test(NAME ctest-Kata-Diamonds COMMAND Kata-Diamonds-test)
@@ -87,7 +82,5 @@ set_property(TARGET Kata-Diamonds-test PROPERTY FOLDER "Kata")
 set_property(TARGET Docs PROPERTY FOLDER "Kata")
 
 set_property(TARGET gtest gtest_main PROPERTY FOLDER "Third-Party/GoogleTest")
-# Uncomment if using ApprovalTests, remove otherwise
-# set_property(TARGET ApprovalTests PROPERTY FOLDER "Third-Party")
 
 set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "CMake Generated")
