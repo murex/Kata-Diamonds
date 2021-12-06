@@ -29,8 +29,6 @@ namespace murex {
 namespace kata {
 namespace diamonds {
 
-// TODO Replace with a method more relevant for the kata
-
 std::string draw(char letter)
 {
    return "";
