@@ -22,15 +22,18 @@ SOFTWARE.
 
 #include <kata/diamonds/Diamonds.hpp>
 
+#include <string>
+
 namespace com {
 namespace murex {
 namespace kata {
 namespace diamonds {
 
 // TODO Replace with a method more relevant for the kata
-int doSomething()
+
+std::string draw(char letter)
 {
-   return 42;
+   return "";
 }
 
 } // namespace diamonds

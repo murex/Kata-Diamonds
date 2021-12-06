@@ -22,12 +22,14 @@ SOFTWARE.
 
 #include <kata/diamonds/config.hpp>
 
+#include <string>
+
 namespace com {
 namespace murex {
 namespace kata {
 namespace diamonds {
 
-DIAMONDS_API int doSomething();
+DIAMONDS_API std::string draw(char letter);
 
 } // namespace diamonds
 } // namespace kata
