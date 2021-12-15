@@ -1,7 +1,7 @@
 # Diamonds
 
 ![Diamonds](images/Diamonds.jpg) <br>
-Image by [Edgar Soto](https://unsplash.com/@edgardo1987) on [UnSplash](https://unsplash.com/photos/gb0BZGae1Nk)
+"[Diamonds](https://unsplash.com/photos/gb0BZGae1Nk)" by [Edgar Soto](https://unsplash.com/@edgardo1987) is licensed under [Unsplash License](https://unsplash.com/license)
 
 ## Description
 
