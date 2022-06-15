@@ -66,7 +66,10 @@ target_link_libraries(Kata-Diamonds-test
         Kata-Diamonds-shared
         gtest_main)
 
-add_test(NAME ctest-Kata-Diamonds COMMAND Kata-Diamonds-test)
+add_test(
+    NAME ctest-Kata-Diamonds
+    COMMAND Kata-Diamonds-test --gtest_brief=1 --gtest_output=xml:test-results/Kata-Diamonds-test.xml
+)
 
 add_custom_target(Docs
     SOURCES
