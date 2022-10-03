@@ -22,6 +22,6 @@ SOFTWARE.
 
 package diamonds
 
-func doSomething() int {
-	return 42
+func draw(letter rune) string {
+	return ""
 }
