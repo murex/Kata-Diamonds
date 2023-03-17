@@ -18,6 +18,5 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# TODO Replace with something more relevant for the kata
-def draw(letter):
+def draw(letter: str) -> str:
     return ''

@@ -8,7 +8,7 @@ class DiamondsTest(unittest.TestCase):
     @unittest.skip("test currently disabled")  # Comment or remove this line to enable this test case
     def test_acceptance_test(self):
         letter = 'Z'
-        expected = [
+        expected = ''.join([
             '                         A                         \n',
             '                        B B                        \n',
             '                       C   C                       \n',
@@ -60,8 +60,8 @@ class DiamondsTest(unittest.TestCase):
             '                       C   C                       \n',
             '                        B B                        \n',
             '                         A                         \n',
-        ]
-        self.assertEqual(''.join(expected), draw(letter))
+        ])
+        self.assertEqual(expected, draw(letter))
 
 
 if __name__ == "__main__":
