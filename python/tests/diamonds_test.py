@@ -1,12 +1,12 @@
-import unittest
+import pytest
 
 from diamonds.diamonds import draw
 
 
-class DiamondsTest(unittest.TestCase):
+class TestDiamonds:
 
-    @unittest.skip("test currently disabled")  # Comment or remove this line to enable this test case
-    def test_acceptance_test(self):
+    @pytest.mark.skip(reason="test currently disabled")  # Comment or remove this line to enable this test case
+    def test_acceptance_test(self) -> None:
         letter = 'Z'
         expected = ''.join([
             '                         A                         \n',
@@ -61,8 +61,4 @@ class DiamondsTest(unittest.TestCase):
             '                        B B                        \n',
             '                         A                         \n',
         ])
-        self.assertEqual(expected, draw(letter))
-
-
-if __name__ == "__main__":
-    unittest.main()
+        assert (expected == draw(letter))
