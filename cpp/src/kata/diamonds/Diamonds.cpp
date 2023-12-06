@@ -24,17 +24,11 @@ SOFTWARE.
 
 #include <string>
 
-namespace com {
-namespace murex {
-namespace kata {
-namespace diamonds {
+namespace com::murex::kata::diamonds {
 
-std::string draw(char letter)
-{
-   return "";
-}
+   std::string draw(char letter)
+   {
+      return "";
+   }
 
-} // namespace diamonds
-} // namespace kata
-} // namespace murex
-} // namespace com
+} // namespace com::murex::kata::diamonds

@@ -24,14 +24,8 @@ SOFTWARE.
 
 #include <string>
 
-namespace com {
-namespace murex {
-namespace kata {
-namespace diamonds {
+namespace com::murex::kata::diamonds {
 
-DIAMONDS_API std::string draw(char letter);
+   DIAMONDS_API std::string draw(char letter);
 
-} // namespace diamonds
-} // namespace kata
-} // namespace murex
-} // namespace com
+} // namespace com::murex::kata::diamonds
