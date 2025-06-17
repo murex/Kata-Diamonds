@@ -7,10 +7,11 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.0.0",
+    "@types/node": "^24.0.3",
     "jest": "^30.0.0",
     "jest-junit": "^16.0.0",
-    "ts-jest": "^29.3.4",
+    "jest-util": "^30.0.0",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   },
   "scripts": {
